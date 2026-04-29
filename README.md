@@ -52,13 +52,13 @@ Three SVM models were implemented and compared:
   * `gamma` (kernel coefficient)
   * `degree` (for polynomial kernel)
 
-### ⚖️ Class Imbalance Handling
+### Class Imbalance Handling
 
 * Used `class_weight='balanced'` to adjust for skewed class distribution
 
 ---
 
-## 📈 Results
+## Results
 
 | Kernel | Train Accuracy | Test Accuracy | ROC-AUC | Precision (1) | Recall (1) | F1-score (1) |
 | ------ | -------------- | ------------- | ------- | ------------- | ---------- | ------------ |
